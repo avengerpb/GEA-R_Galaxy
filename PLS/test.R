@@ -1,0 +1,10 @@
+
+datos = read.csv("Yield_Data_for_CovENV.csv")
+file_nameCOV = read.csv("CovENV_Data.csv")
+ExpDes <- c("Lattice")
+BiplotFormat <- c("pdf")
+traits <- c("YLD")
+typecov <-c("env")
+selected <- c("Batan,Toluca,Obregon,AguaFria,Tlatizapan,Celaya,Tuxtla,Ameca")
+source("/home/dquoc/galaxy/tools/PLS/PLS.R")
+PLSR()

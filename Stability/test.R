@@ -1,0 +1,10 @@
+
+datos1 = read.csv("Yield_Data_for_CovENV.csv")
+ExpDes1 <- c("Lattice")
+BiplotFormat1 <- c("pdf")
+traits1 <- c("YLD")
+LSMeans1 <-c("NA,NA,NA")
+sta.parms1 <-c(TRUE,TRUE,TRUE,TRUE,TRUE)
+selected1 <- c("Batan,Toluca,Obregon,AguaFria,Tlatizapan,Celaya,Tuxtla,Ameca")
+source("/home/dquoc/galaxy/tools/Stability/Stability.R")
+STABILITY()
